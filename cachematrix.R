@@ -3,7 +3,7 @@
 ## - s contains the cached value, if already set
 ## - set() is not actually used by cacheSolve; 
 ##     it can be used from outside to replace the matrix x with another one, in that case the cached value
-##     will be cleaned at it will be obsolete
+##     will be cleaned as it will be obsolete
 ## - get() returns the original matrix (x) stored when makeCacheMatrix is called
 ## - setsolve caches the value of the solve value in s
 ## - getsolve returns the cached value, which can be null or valid
